@@ -1,0 +1,60 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>lab9</title>
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+        <!-- Подключаем CSS -->
+	    <link rel="stylesheet" href="css/style_lab9.css" />
+	</head>
+	
+	<body>
+
+    <table class="content">
+      <tbody class="tbl_inside" >
+        <tr>
+          <td colspan="5" >
+            <input id="input" class="input_" type="text" size="40"  style="text-align: right;  ">
+          </td>
+        </tr>
+        <tr>
+          <td > <button class="button_" id="number" value="7" type="submit">7</button></td>
+          <td > <button class="button_" id="number" value="8" type="submit">8</button></td>
+          <td > <button class="button_" id="number" value="9" type="submit">9</button></td>
+          <td > <button class="button_" id="operation" value="/" type="submit">/</button></td>
+          <td > <button class="button_" id="C" type="submit">C</button></td>
+         
+        </tr>
+        <tr>
+          <td > <button class="button_" id="number" value="4" type="submit">4</button></td>
+          <td > <button class="button_" id="number" value="5" type="submit">5</button></td>
+          <td > <button class="button_" id="number" value="6" type="submit">6</button></td>
+          <td > <button class="button_" id="operation" value="*" type="submit">*</button></td>
+          <td > <button class="button_" id="arrow" type="submit">←</button></td>
+        
+        </tr>
+        <tr>
+         
+          <td > <button class="button_" id="number" value="1" type="submit">1</button></td>
+          <td > <button class="button_" id="number" value="2" type="submit">2</button></td>
+          <td > <button class="button_" id="number" value="3" type="submit">3</button></td>
+          <td > <button class="button_" id="operation" value="-" type="submit">-</button></td>
+          <td  rowspan="2" > <button class="button_" id="button_equal" type="submit">=</button></td>
+         
+        </tr>
+
+        <tr >
+          <td  colspan="2" > <button class="button_"  id="number" value="0" type="submit" style=" width: 115px;">0</button></td>
+          <td > <button class="button_" id="number" value="."type="submit" >.</button></td>
+          <td > <button class="button_" id="operation" value="+" type="submit">+</button></td>
+        </tr>
+      </tbody>
+  </table>
+   
+  </body>
+  <script src="js/scriptJS_lab9.js"></script>
+</html>
